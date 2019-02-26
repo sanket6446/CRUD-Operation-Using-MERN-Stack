@@ -1,0 +1,29 @@
+Successfully add new record:
+<style>
+table, th, td {
+border: 1px solid black;
+}
+</style>
+<table style="width:100%">
+<tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>PhoneNumber</th>
+        <th>Website</th>
+        <th>About</th>
+</tr>
+<tr>
+<td> <%= person.name%></td>
+<br>
+<td> <%= person.city%></td>
+<br>
+<td> <%= person.phonenumber%></td>
+<br>
+<td><%= person.website%></td>
+<br>
+<td><%= person.about%></td>
+<br>
+</tr>
+</table>
+<br><a href='/create'>Add New Record</a>
+<br><a href='/all'>Show All</a>

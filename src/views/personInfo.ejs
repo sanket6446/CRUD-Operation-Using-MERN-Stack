@@ -1,0 +1,15 @@
+<form action="/update" method="post">
+name: <%= person.name %><br>
+<input name='name' value="<%= person.name %>" hidden>
+<b>City:</b> <input name="city" value="<%= person.city %>">
+<br>
+<b>PhoneNumber:</b> <input name="phonenumber" value="<%= person.phonenumber %>">
+<br>
+<b>Website:</b> <input name="website" value="<%= person.website %>">
+<br>
+<b>About:</b> <input name="about" value="<%= person.about %>">
+<br>
+<input type="submit" value="Update">
+</form>
+<br><a href="/create"></a>
+<br><a href="/all">Show All</a>
