@@ -2,7 +2,7 @@
 Steps Involved:
 
 
-1> Created Simple form Using Bootstrap
+1> Created form Using Bootstrap
 
 
 2>Validate it using React.js
